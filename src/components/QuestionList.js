@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import QuestionItem from "./QuestionItem";
+import QuestionItem from "./QuestionItem.js";
 
 function QuestionList() {
   const [questions, setQuestions] = useState([]);
